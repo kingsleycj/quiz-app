@@ -56,7 +56,8 @@ A quiz application built with JavaScript that tests users on technical programmi
 - JavaScript
 
 ## 🚀 Live Link
--  [Live Link](https://quiz-app-3a18.onrender.com)
+-  [Primary Live Link(Render)](https://quiz-app-3a18.onrender.com)
+-  [Secondary Live Link(Vercel)](https://quiz-app-smoky-theta.vercel.app/)
 
 ## 🚀 Setup & Usage
 1. Clone the repository
