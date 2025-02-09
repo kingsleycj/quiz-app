@@ -1,4 +1,4 @@
-# Technical Quiz Application
+# A Simple Quiz Application
 
 A quiz application built with JavaScript that tests users on technical programming concepts. This project demonstrates the implementation of core quiz functionality while maintaining an engaging and visually appealing user interface.
 
