@@ -55,6 +55,9 @@ A quiz application built with JavaScript that tests users on technical programmi
 - CSS3 (with animations)
 - JavaScript
 
+## 🚀 Live Link
+-  [Live Link](https://quiz-app-3a18.onrender.com)
+
 ## 🚀 Setup & Usage
 1. Clone the repository
 2. Open `index.html` in a modern web browser

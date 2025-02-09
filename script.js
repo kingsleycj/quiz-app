@@ -85,7 +85,6 @@ let currentQuestion = 0;
 let score = 0;
 let userAnswers = [];
 
-// Animation setup
 function createBackgroundAnimations() {
   const container = document.querySelector('.background-animation');
   for (let i = 0; i < 20; i++) {
@@ -136,7 +135,6 @@ async function checkAnswer(selectedIndex) {
   const correctIndex = questions[currentQuestion].correct;
   const options = document.querySelectorAll('.option');
   
-  // Store user's answer
   userAnswers.push({
       question: questions[currentQuestion].question,
       selectedAnswer: questions[currentQuestion].options[selectedIndex],
@@ -144,10 +142,8 @@ async function checkAnswer(selectedIndex) {
       isCorrect: selectedIndex === correctIndex
   });
 
-  // Disable all options during animation
   options.forEach(opt => opt.style.pointerEvents = 'none');
 
-  // Show correct/wrong animations
   if (selectedIndex === correctIndex) {
       options[selectedIndex].classList.add('correct');
       score++;
@@ -159,7 +155,6 @@ async function checkAnswer(selectedIndex) {
 
   await new Promise(resolve => setTimeout(resolve, 800));
 
-  // Move to next question or end quiz
   currentQuestion++;
   if (currentQuestion < questions.length) {
       displayQuestion();
@@ -209,7 +204,6 @@ function showReview() {
   `).join('');
 }
 
-// Initialize
 document.getElementById('restart-btn').onclick = restartQuiz;
 document.getElementById('review-btn').onclick = showReview;
 createBackgroundAnimations();
