@@ -2,7 +2,7 @@
 
 A quiz application built with JavaScript that tests users on technical programming concepts. This project demonstrates the implementation of core quiz functionality while maintaining an engaging and visually appealing user interface.
 
-## 🎯 Project Requirements & Implementation
+## 🎯 Task Requirements
 
 ### 1. Display Questions ✅
 - **Single Question Display**: Questions are presented one at a time in a clean, side-by-side layout with their corresponding options
@@ -52,7 +52,7 @@ A quiz application built with JavaScript that tests users on technical programmi
 
 ## 🛠️ Technologies Used
 - HTML5
-- CSS3 (with animations)
+- CSS3
 - JavaScript
 
 ## 🚀 Live Link
@@ -69,16 +69,11 @@ This project demonstrates proficiency in:
 - Object-oriented programming
 - DOM manipulation
 - Event handling
-- State management
-- Asynchronous programming (for animations)
-- CSS animations and transitions
+- Asynchronous programming 
 
-## 🔄 Future Improvements
+## 🔄 Possible Future Improvements
 Potential enhancements could include:
 - Timer functionality
 - Difficulty levels
-- Category selection
-- Score persistence
-- More questions
-- Social sharing
+- Animated Progresss Scrollbar
 
