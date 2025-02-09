@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-animation"></div>
+    <div class="quiz-container">
+        <div class="quiz-header">
+            <div class="progress">Question <span id="current-question">1</span> of 10</div>
+            <div class="score">Score: <span id="score">0</span></div>
+        </div>
+        <div class="quiz-content">
+            <div class="question" id="question"></div>
+            <div class="options" id="options"></div>
+        </div>
+        <div class="control-buttons">
+            <button class="control-button" id="restart-btn" style="display: none;">Restart Quiz</button>
+            <button class="control-button" id="review-btn" style="display: none;">Review Answers</button>
+        </div>
+        <div class="review-container" id="review-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
