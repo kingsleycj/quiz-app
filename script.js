@@ -179,10 +179,20 @@ function restartQuiz() {
   currentQuestion = 0;
   score = 0;
   userAnswers = [];
+  const quizContent = document.querySelector('.quiz-content');
+  const reviewContainer = document.getElementById('review-container');
+  quizContent.innerHTML = `
+  <div class="question" id="question"></div>
+  <div class="options" id="options"></div>
+`;
+reviewContainer.style.display = 'none';
   document.getElementById('restart-btn').style.display = 'none';
   document.getElementById('review-btn').style.display = 'none';
-  document.getElementById('review-container').style.display = 'none';
-  document.querySelector('.quiz-content').style.display = 'grid';
+  quizContent.style.display = 'grid';
+  document.getElementById('current-question').textContent = '1';
+  document.getElementById('score').textContent = '0';
+  // document.getElementById('review-container').style.display = 'none';
+  // document.querySelector('.quiz-content').style.display = 'grid';
   displayQuestion();
 }
 
